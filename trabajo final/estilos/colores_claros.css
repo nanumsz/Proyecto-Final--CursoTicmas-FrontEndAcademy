@@ -1,0 +1,23 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color:  #DAFCF0;
+}
+
+header {
+    background-color: #2E8060;
+}
+
+nav {
+    /* background-color: #45BF90; */
+}
+
+section {
+    background-color: #45BF90;
+}
+
+footer {
+    background-color: #54EBB0;
+}

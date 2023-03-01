@@ -1,0 +1,61 @@
+
+header {
+    background-color: #9edbca;
+    margin: 10px, 10px, 0px, 10px;
+    padding: 5px
+}
+
+/* nav {
+    background-color: #8ac0b1;
+    margin: 0px, 10px, 10px, 10px;
+    padding: 5px
+} */
+
+section {
+    background-color: #cfede5;
+    border: 10px solid  #8ac0b1;
+}
+
+h1.tituloSeccion {
+    text-align: center;
+    background-color: #9edbca;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#primeraParte .row .col-4, #primeraParte .row .col-8 {
+    margin: 0px;
+    padding: 0px;
+}
+
+#artInfoPersonal {
+    margin-top: 7px;
+}
+
+#artInfoPersonal p {
+    text-align: center;
+}
+
+section .container-fluid  {
+    margin: 0px;
+    padding: 0px;
+}
+
+h2.tituloHabilidad {
+    text-align: center;
+}
+
+ul.listaHabilidades {
+    list-style: none;
+    list-style-position: inside;
+}
+ 
+article {
+    margin: 0px;
+    padding: 0px;
+}
+
+#seccionExperiencia .col-4 {
+    text-align: right;
+}
