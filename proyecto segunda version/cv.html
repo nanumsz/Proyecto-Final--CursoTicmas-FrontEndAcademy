@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final - CV</title>
+
+    <!-- icono -->
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2766/2766956.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="estilos/estiloBase.css">
+
+    <!-- Tipografia -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <div id="contenedorFoto">
+            <img id="fotoCV" src="" alt=""> 
+        </div>
+
+        <div id="contenedorTextoHeader">
+            <h1>
+                <p id="nombreCV"></p>
+            </h1>
+            <p id="txtPresentacionCV"></p>
+
+            <!-- botones modo claro/oscuro -->
+        </div>
+    </header>
+
+    <div id="contenedorSections">
+        
+        <section id="habilidadesCV">        
+            <h1><p class="tituloSeccion">Habilidades</p></h1>
+
+            <article id="aptitudesCV">      
+                <h2><p class="tituloArticulo">Aptitudes</p></h2>
+
+                <ul id="listaAptitudes">
+                </ul>
+
+            </article>
+            
+            <article id="conocimientosCV">      
+                <h2><p class="tituloArticulo">Conocimientos</p></h2>
+
+                <table id="tablaConocimientos">
+                </table>
+
+            </article>
+                
+            <article id="idiomasCV">      
+                <h2><p class="tituloArticulo">Idiomas</p></h2>
+
+                <table id="tablaIdiomas">
+                </table>
+
+            </article>
+        </section>
+
+        <div id="contenedorGrande">
+            <div id="contenedorInfoPersonal">
+                <section id="infoPersonalCV">
+                    <div id="contenedorDatosInfoPersonal">
+                        <div>
+                            <h1><p class="tituloSeccion">Información Personal</p></h1>
+                        </div>
+
+                        <div id="datosInfoPersonal">
+
+                                <p id="emailCV"></p>
+                                <p id="dniCV"></p>
+                                <p id="fNacimientoCV"></p>
+                            
+
+                                <p id="domicilioCV"></p>        
+                                <p id="ciudadCV"></p>
+                                <p id="telCV"></p>
+                            
+                        </div>
+                        
+                        <!-- cajoncito redes? -->
+
+                    </div>
+
+                </section>
+            </div>
+
+            <div id="contenedorExperiencia">
+                <section id="experienciaCV">        
+                    <div>
+                        <h1><p class="tituloSeccion">Experiencia</p></h1>
+                    </div>
+
+                    <div id="articulosExperiencia">
+                        <article class="experienciaInfo" id="experiencia3CV">
+                            <div>
+                                <h2><p class="fechaExp"></p></h2>
+                            </div>
+                            
+                            <div>
+                                <h3><p class="puestoExp"></p></h3>
+                                <h4><p class="lugarExp"></p></h4>
+                            </div>
+
+                            <div>
+                                <button class="ver+">Ver más</button>
+
+                                <div class="contenedorTareasOculto" style="display:none">
+                                    <ul class="listaTareas">
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="experienciaInfo" id="experiencia2CV">
+                            <div>
+                                <h2><p class="fechaExp"></p></h2>
+                            </div>
+                            
+                            <div>
+                                <h3><p class="puestoExp"></p></h3>
+                                <h4><p class="lugarExp"></p></h4>
+                            </div>
+
+                            <div>
+                                <button class="ver+">Ver más</button>
+
+                                <div class="contenedorTareasOculto" style="display:none">
+                                    <ul class="listaTareas">
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="experienciaInfo" id="experiencia1CV">
+                            <div>
+                                <h2><p class="fechaExp"></p></h2>
+                            </div>
+                            
+                            <div>
+                                <h3><p class="puestoExp"></p></h3>
+                                <h4><p class="lugarExp"></p></h4>
+                            </div>
+
+                            <div>
+                                <button class="ver+">Ver más</button>
+
+                                <div class="contenedorTareasOculto" style="display:none">
+                                    <ul class="listaTareas">
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="scripts/funcionalidadesCV.js"></script>
+
+
+</body>
+</html>
